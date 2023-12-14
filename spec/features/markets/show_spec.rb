@@ -21,6 +21,7 @@ RSpec.describe "Market Show Page" do
     it "Each vendor is a link that goes to the show page of the vendor" do
       click_link("Orange County Olive Oil")
       expect(current_path).to eq(vendor_path(55297))
+      save_and_open_page
     end
   end
 end
