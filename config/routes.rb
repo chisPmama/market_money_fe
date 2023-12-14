@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :markets, only: [:index, :show]
   resources :vendors, only: :show
 
+  get '/search', to: 'search#index', as: 'search'
+
   # Defines the root path route ("/")
   # root "articles#index"
 end
