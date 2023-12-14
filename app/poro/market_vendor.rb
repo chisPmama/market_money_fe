@@ -1,6 +1,6 @@
 class MarketVendor
   attr_reader :id, :name, :description, :contact_name, :contact_phone, :credit_accepted
-  
+
   def initialize(data)
     @id = data[:id]
 
