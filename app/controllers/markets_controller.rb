@@ -5,6 +5,8 @@ class MarketsController < ApplicationController
   end
 
   def show
-    @market = index.find{|market| market.id == params[:id]}
+   @market = index.find{|market| market.id == params[:id]}
+   @facade = MarketVendorFacade.new
+   @vendors = @facade.get_market_vendors(params[:id])
   end
 end

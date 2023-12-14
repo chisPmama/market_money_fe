@@ -10,5 +10,4 @@ class MarketFacade
       Market.new(d)
     end
   end
-
 end
