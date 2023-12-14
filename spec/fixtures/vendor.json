@@ -1,0 +1,71 @@
+{
+  "data": {
+      "id": "55297",
+      "type": "vendor",
+      "attributes": {
+          "name": "Orange County Olive Oil",
+          "description": "Handcrafted olive oil made from locally grown olives",
+          "contact_name": "Syble Hamill",
+          "contact_phone": "1-276-593-3530",
+          "credit_accepted": false
+      },
+      "relationships": {
+          "markets": {
+              "data": [
+                  {
+                      "id": "322474",
+                      "type": "market"
+                  },
+                  {
+                      "id": "323664",
+                      "type": "market"
+                  },
+                  {
+                      "id": "324118",
+                      "type": "market"
+                  },
+                  {
+                      "id": "324552",
+                      "type": "market"
+                  },
+                  {
+                      "id": "324826",
+                      "type": "market"
+                  },
+                  {
+                      "id": "324900",
+                      "type": "market"
+                  },
+                  {
+                      "id": "325254",
+                      "type": "market"
+                  },
+                  {
+                      "id": "326196",
+                      "type": "market"
+                  },
+                  {
+                      "id": "325538",
+                      "type": "market"
+                  },
+                  {
+                      "id": "326931",
+                      "type": "market"
+                  },
+                  {
+                      "id": "329051",
+                      "type": "market"
+                  },
+                  {
+                      "id": "330834",
+                      "type": "market"
+                  },
+                  {
+                      "id": "331043",
+                      "type": "market"
+                  }
+              ]
+          }
+      }
+  }
+}

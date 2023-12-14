@@ -1,0 +1,163 @@
+{
+  "data": {
+      "id": "322474",
+      "type": "market",
+      "attributes": {
+          "name": "2nd Street Farmers' Market",
+          "street": "194 second street",
+          "city": "Amherst",
+          "county": "Amherst",
+          "state": "Virginia",
+          "zip": "24521",
+          "lat": "37.583311",
+          "lon": "-79.048573",
+          "vendor_count": 35
+      },
+      "relationships": {
+          "vendors": {
+              "data": [
+                  {
+                      "id": "55297",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56227",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56172",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56489",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55254",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56411",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55020",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55080",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56271",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55224",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55891",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56025",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56329",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55209",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56104",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56208",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56009",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55634",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55310",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56140",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55785",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55167",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55920",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56038",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "54924",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55350",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56272",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55543",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55291",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56240",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55313",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55668",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55284",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "56206",
+                      "type": "vendor"
+                  },
+                  {
+                      "id": "55055",
+                      "type": "vendor"
+                  }
+              ]
+          }
+      }
+  }
+}
