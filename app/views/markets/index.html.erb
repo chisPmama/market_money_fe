@@ -1,0 +1,9 @@
+<h2>Markets</h2>
+<ul>
+<% @markets.each do |m| %>
+  <div id ="market-<%= m.id %>">
+    <li><b><%= m.name %> %></b> | <%= m.city %> | <%= m.state %></li> | 
+    <%= button_to "More Info", market_path(m.id), method: :get %>
+  </div>
+<% end %>
+</ul>
