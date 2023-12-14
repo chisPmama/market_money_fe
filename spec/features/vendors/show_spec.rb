@@ -15,5 +15,25 @@ RSpec.describe "Vendor Show Page" do
       expect(page).to have_content("1-276-593-3530")
       expect(page).to have_content("Description: Handcrafted olive oil made from locally grown olives")
     end
+    
+    describe 'Extra Practice/Searching for Markets to Add' do
+      it "has a form on the page to search for markets to add to the vendor" do
+        expect(page).to have_field(:name)
+        expect(page).to have_field(:city)
+        expect(page).to have_field(:state)
+        expect(page).to have_button("Search for Market")
+      end
+  
+      it "can fill out the form with valid parameters and see the list of linked markets that match" do
+        fill_in :city, with: "Alexandria"
+        fill_in :state, with: "Virginia"
+        click_button("Search for Market")
+
+        expect(page).to have_link("Dey Ray Farmers' Market")
+        expect(page).to have_link("King Street Station Farmers' Market")
+      end
+    end
   end
+
+  
 end
