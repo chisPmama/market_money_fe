@@ -3,6 +3,7 @@ require "rails_helper"
 RSpec.describe "Markets Index Page" do
   before(:each) do
     visit markets_path
+    save_and_open_page
   end
 
   describe 'Visiting the Markets Index Page' do
